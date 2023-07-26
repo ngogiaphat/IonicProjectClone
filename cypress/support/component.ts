@@ -17,7 +17,5 @@ declare global {
       mount: typeof mount
     }
   }
-}
-Cypress.Commands.add('mount', mount)
-// Example use:
-// cy.mount(MyComponent)
+};
+Cypress.Commands.add('mount', mount);
